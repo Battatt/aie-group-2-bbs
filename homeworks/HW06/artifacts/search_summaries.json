@@ -1,0 +1,33 @@
+{
+  "LogisticRegression": {
+    "best_params": {
+      "logreg__C": 0.001,
+      "logreg__solver": "lbfgs"
+    },
+    "model_type": "linear"
+  },
+  "DecisionTree": {
+    "best_params": {
+      "max_depth": 10,
+      "min_samples_leaf": 20
+    },
+    "model_type": "tree",
+    "cv_score": 0.8035850191957952
+  },
+  "RandomForest": {
+    "best_params": {
+      "max_depth": 25,
+      "min_samples_leaf": 5
+    },
+    "model_type": "ensemble_bagging",
+    "cv_score": 0.8899163361121285
+  },
+  "HistGradientBoosting": {
+    "best_params": {
+      "max_depth": 25,
+      "min_samples_leaf": 25
+    },
+    "model_type": "ensemble_boosting",
+    "cv_score": 0.8998551104059157
+  }
+}

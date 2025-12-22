@@ -1,0 +1,87 @@
+{
+  "DummyClassifier": {
+    "accuracy": 0.9508,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "confusion_matrix": [
+      [
+        4754,
+        0
+      ],
+      [
+        246,
+        0
+      ]
+    ],
+    "roc_auc": 0.5
+  },
+  "LogisticRegression": {
+    "accuracy": 0.9528,
+    "precision": 1.0,
+    "recall": 0.04065040650406504,
+    "f1": 0.078125,
+    "confusion_matrix": [
+      [
+        4754,
+        0
+      ],
+      [
+        236,
+        10
+      ]
+    ],
+    "roc_auc": 0.8460893864302547
+  },
+  "DecisionTree": {
+    "accuracy": 0.9684,
+    "precision": 0.8283582089552238,
+    "recall": 0.45121951219512196,
+    "f1": 0.5842105263157895,
+    "confusion_matrix": [
+      [
+        4731,
+        23
+      ],
+      [
+        135,
+        111
+      ]
+    ],
+    "roc_auc": 0.825740240995174
+  },
+  "RandomForest": {
+    "accuracy": 0.9702,
+    "precision": 0.970873786407767,
+    "recall": 0.4065040650406504,
+    "f1": 0.5730659025787965,
+    "confusion_matrix": [
+      [
+        4751,
+        3
+      ],
+      [
+        146,
+        100
+      ]
+    ],
+    "roc_auc": 0.8845106046769344
+  },
+  "HistGradientBoosting": {
+    "accuracy": 0.9784,
+    "precision": 0.96,
+    "recall": 0.5853658536585366,
+    "f1": 0.7272727272727273,
+    "confusion_matrix": [
+      [
+        4748,
+        6
+      ],
+      [
+        102,
+        144
+      ]
+    ],
+    "roc_auc": 0.8935846920522212
+  }
+}
