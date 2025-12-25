@@ -2,7 +2,7 @@
   "datasets": [
     {
       "dataset_name": "S07-hw-dataset-01",
-      "added_timestamp": "2025-12-25T20:56:02.446474",
+      "added_timestamp": "2025-12-25T21:43:38.004497",
       "best_K_model": {
         "algorithm": "KMeans",
         "parameters": {
@@ -31,7 +31,7 @@
     },
     {
       "dataset_name": "S07-hw-dataset-01",
-      "added_timestamp": "2025-12-25T20:56:52.373801",
+      "added_timestamp": "2025-12-25T21:44:31.296117",
       "best_DB_model": {
         "algorithm": "DBSCAN",
         "parameters": {
@@ -63,7 +63,7 @@
     },
     {
       "dataset_name": "S07-hw-dataset-02",
-      "added_timestamp": "2025-12-25T20:57:15.654343",
+      "added_timestamp": "2025-12-25T21:44:55.685978",
       "best_K_model": {
         "algorithm": "KMeans",
         "parameters": {
@@ -75,7 +75,7 @@
           "silhouette_score": 0.3068610017701601,
           "davies_bouldin_score": 1.3234721699867644,
           "calinski_harabasz_score": 3573.3933329348392,
-          "inertia": 16588.500017412756
+          "inertia": 16588.50001741276
         },
         "clusters": {
           "count": 2,
@@ -92,7 +92,7 @@
     },
     {
       "dataset_name": "S07-hw-dataset-02",
-      "added_timestamp": "2025-12-25T20:57:43.155203",
+      "added_timestamp": "2025-12-25T21:45:24.233804",
       "best_DB_model": {
         "algorithm": "DBSCAN",
         "parameters": {
@@ -165,7 +165,7 @@
     },
     {
       "dataset_name": "S07-hw-dataset-03",
-      "added_timestamp": "2025-12-25T20:58:40.794812",
+      "added_timestamp": "2025-12-25T21:46:26.234339",
       "best_K_model": {
         "algorithm": "KMeans",
         "parameters": {
@@ -177,7 +177,7 @@
           "silhouette_score": 0.3068610017701601,
           "davies_bouldin_score": 1.3234721699867644,
           "calinski_harabasz_score": 3573.3933329348392,
-          "inertia": 16588.500017412756
+          "inertia": 16588.50001741276
         },
         "clusters": {
           "count": 2,
@@ -194,7 +194,7 @@
     },
     {
       "dataset_name": "S07-hw-dataset-03",
-      "added_timestamp": "2025-12-25T20:59:46.327341",
+      "added_timestamp": "2025-12-25T21:47:39.335124",
       "best_DB_model": {
         "algorithm": "DBSCAN",
         "parameters": {
@@ -225,6 +225,6 @@
       }
     }
   ],
-  "last_updated": "2025-12-25T20:59:46.327341",
+  "last_updated": "2025-12-25T21:47:39.335124",
   "total_records": 6
 }
