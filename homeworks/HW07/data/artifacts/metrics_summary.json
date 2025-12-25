@@ -1,0 +1,230 @@
+{
+  "datasets": [
+    {
+      "dataset_name": "S07-hw-dataset-01",
+      "added_timestamp": "2025-12-25T20:56:02.446474",
+      "best_K_model": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 2,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.5216395622404242,
+          "davies_bouldin_score": 0.6853295219054459,
+          "calinski_harabasz_score": 11786.95462267153,
+          "inertia": 48425.90697659398
+        },
+        "clusters": {
+          "count": 2,
+          "sizes": [
+            9600,
+            2400
+          ]
+        },
+        "pca_info": {
+          "explained_variance": 0.6886474986770339,
+          "n_components": 2
+        }
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-01",
+      "added_timestamp": "2025-12-25T20:56:52.373801",
+      "best_DB_model": {
+        "algorithm": "DBSCAN",
+        "parameters": {
+          "eps": 0.6,
+          "min_samples": 10
+        },
+        "metrics": {
+          "silhouette_score": 0.3845323404927463,
+          "davies_bouldin_score": 1.2397462212537893,
+          "calinski_harabasz_score": 8561.539180134101
+        },
+        "clusters": {
+          "count": 5,
+          "sizes": [
+            2392,
+            2302,
+            2352,
+            2373,
+            2351
+          ],
+          "noise_points": 230,
+          "noise_ratio": 0.019166666666666665
+        },
+        "pca_info": {
+          "explained_variance": 0.6886474986770339,
+          "n_components": 2
+        }
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-02",
+      "added_timestamp": "2025-12-25T20:57:15.654343",
+      "best_K_model": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 2,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.3068610017701601,
+          "davies_bouldin_score": 1.3234721699867644,
+          "calinski_harabasz_score": 3573.3933329348392,
+          "inertia": 16588.500017412756
+        },
+        "clusters": {
+          "count": 2,
+          "sizes": [
+            3983,
+            4017
+          ]
+        },
+        "pca_info": {
+          "explained_variance": 0.7590985979172598,
+          "n_components": 2
+        }
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-02",
+      "added_timestamp": "2025-12-25T20:57:43.155203",
+      "best_DB_model": {
+        "algorithm": "DBSCAN",
+        "parameters": {
+          "eps": 0.1,
+          "min_samples": 10
+        },
+        "metrics": {
+          "silhouette_score": 0.5812458584406734,
+          "davies_bouldin_score": 0.577982006980007,
+          "calinski_harabasz_score": 2758.1225203015906
+        },
+        "clusters": {
+          "count": 46,
+          "sizes": [
+            11,
+            19,
+            32,
+            23,
+            11,
+            13,
+            24,
+            20,
+            11,
+            17,
+            13,
+            10,
+            13,
+            13,
+            14,
+            23,
+            14,
+            15,
+            10,
+            10,
+            11,
+            13,
+            23,
+            10,
+            19,
+            20,
+            11,
+            17,
+            10,
+            14,
+            10,
+            17,
+            10,
+            11,
+            16,
+            16,
+            10,
+            10,
+            11,
+            10,
+            11,
+            12,
+            11,
+            14,
+            10,
+            9
+          ],
+          "noise_points": 7348,
+          "noise_ratio": 0.9185
+        },
+        "pca_info": {
+          "explained_variance": 0.7590985979172598,
+          "n_components": 2
+        }
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-03",
+      "added_timestamp": "2025-12-25T20:58:40.794812",
+      "best_K_model": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 2,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.3068610017701601,
+          "davies_bouldin_score": 1.3234721699867644,
+          "calinski_harabasz_score": 3573.3933329348392,
+          "inertia": 16588.500017412756
+        },
+        "clusters": {
+          "count": 2,
+          "sizes": [
+            3983,
+            4017
+          ]
+        },
+        "pca_info": {
+          "explained_variance": 0.7590985979172598,
+          "n_components": 2
+        }
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-03",
+      "added_timestamp": "2025-12-25T20:59:46.327341",
+      "best_DB_model": {
+        "algorithm": "DBSCAN",
+        "parameters": {
+          "eps": 0.1,
+          "min_samples": 10
+        },
+        "metrics": {
+          "silhouette_score": 0.8121356112341539,
+          "davies_bouldin_score": 0.2449468669104906,
+          "calinski_harabasz_score": 3564.021041770511
+        },
+        "clusters": {
+          "count": 5,
+          "sizes": [
+            15,
+            15,
+            10,
+            10,
+            11
+          ],
+          "noise_points": 14939,
+          "noise_ratio": 0.9959333333333333
+        },
+        "pca_info": {
+          "explained_variance": 0.7192265352877945,
+          "n_components": 2
+        }
+      }
+    }
+  ],
+  "last_updated": "2025-12-25T20:59:46.327341",
+  "total_records": 6
+}

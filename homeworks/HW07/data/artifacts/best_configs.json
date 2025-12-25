@@ -1,0 +1,59 @@
+{
+  "last_updated": "2025-12-25T20:59:46.421754",
+  "datasets": [
+    {
+      "dataset_name": "S07-hw-dataset-01",
+      "final_choice": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 2,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.5216395622404242,
+          "davies_bouldin_score": 0.6853295219054459,
+          "calinski_harabasz_score": 11786.95462267153,
+          "inertia": 48425.90697659398
+        },
+        "reasoning": "KMeans показал превосходство по всем метрикам: silhouette=0.522 vs 0.385, Davies-Bouldin=0.685 vs 1.240, Calinski-Harabasz=11787 vs 8562. Визуализация PCA подтверждает естественное разделение на две сферические группы."
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-02",
+      "final_choice": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 2,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.3068610017701601,
+          "davies_bouldin_score": 1.3234721699867644,
+          "calinski_harabasz_score": 3573.3933329348392,
+          "inertia": 16588.500017412756
+        },
+        "reasoning": "Несмотря на лучший силуэт у DBSCAN (0.581), он выделил 91.8% точек как шум, что делает результат неинтерпретируемым. KMeans с k=2 даёт осмысленное разделение на две сбалансированные группы. Признак z_noise оказался слишком доминирующим и разрушающим для кластеризации."
+      }
+    },
+    {
+      "dataset_name": "S07-hw-dataset-03",
+      "final_choice": {
+        "algorithm": "KMeans",
+        "parameters": {
+          "n_clusters": 3,
+          "n_init": 10,
+          "random_state": 39
+        },
+        "metrics": {
+          "silhouette_score": 0.31554470037825183,
+          "davies_bouldin_score": 1.1577256320598661,
+          "calinski_harabasz_score": 6957.162639510166,
+          "inertia": 31123.461479827136
+        },
+        "reasoning": "DBSCAN выявил, что данные содержат 99.6% шума, что делает плотностную кластеризацию бессмысленной. Хотя формальные метрики DBSCAN выше, результат (5 кластеров из 0.4% данных) не имеет практической ценности. KMeans с k=3 обеспечивает осмысленное разделение всего датасета на три сбалансированные группы, что соответствует реальной задаче кластеризации."
+      }
+    }
+  ]
+}
